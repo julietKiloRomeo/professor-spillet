@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "professor-spillet"
+version = "0.1.0"
+description = ""
+authors = ["jkr <jimmy.kjaersgaard@gmail.com>"]
+readme = "README.md"
+packages = [{include = "professor_spillet"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "*"
+jupyterlab = "*"
+tqdm = "^4.66.1"
+ipywidgets = "^8.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
